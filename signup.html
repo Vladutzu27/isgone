@@ -53,11 +53,16 @@
                 font-size: 40px;
                 color: #1F487E;
                 font-weight: 500;
+                margin: 40px;
                 padding-bottom: 70px;
             }
-            #links{
-                justify-content: space-around;
-                align-items: center;
+            #already{
+                font-size: 40px;
+                font-weight: 500;
+                margin: none;
+                margin-left: 40px;
+            }
+            #inline{
                 display: flex;
             }
         </style>
@@ -66,17 +71,16 @@
         <div id="navbar">
         <img src="logowhite.png" id="logo" alt="logo"></div>
         <div id="logintext">
-            <center><h1 id="text">Login</h1>
+            <center><h1 id="text">Create Account</h1>
             <input class="boxes" type="text" name="" placeholder="  Email or phone number" id="email">
             <br>
             <input class="boxes" type="password" name="" placeholder="  Password" id="">
+            <br>
+            <input class="boxes" type="password" name="" placeholder=" Confirm password" id="">
             </center>
-            <div id="links">
-                <a id="forgot" href="forgot.html">Forgot password</a>
-                <a id="forgot" href="signup.html">Create account</a>
-            </div>
+            <div id="inline"><p id="already">Already have an account? </p><a id="forgot" href="login.html">Log in</a></div>
             <center>
-            <div class="buttons"><a class="button" href="index.html">Log in</a></div>
+            <div class="buttons"><a class="button" href="index.html">Sign up</a></div>
         </center>
         </div>
     </body>
